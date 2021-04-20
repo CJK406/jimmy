@@ -1,0 +1,159 @@
+.bottom_boder{
+    width:100px;
+    border-bottom:1px solid white;
+    margin:auto
+}
+.header{
+	background-color:white;
+	width: 100%;
+}
+#title{
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 35px;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+#status span{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+	padding: 10px;
+    background: #E1E6EB;
+    padding: 5px 10px;
+}
+#timer{
+	margin-left:20px;
+	    display: flex;
+    align-items: center;
+}
+#timer ion-icon{
+	margin-right:10px;
+}
+
+#bid_div{
+	margin-top:40px;
+}
+
+#bid_div .col-md-6:nth-child(1) p{
+	margin-bottom:10px;
+}
+#bid_div .col-md-6:nth-child(1) {
+	display: flex
+}
+#bid_div .col-md-6:nth-child(1) div:nth-child(2) {
+	margin-left:20px;
+}
+
+#bid_div .col-md-6:nth-child(1) span{
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 22px;
+	color:#586370;
+}
+#bid_div .col-md-6:nth-child(1) span:nth-child(4){
+	font-size: 10px !important;
+}
+
+
+#select_bid_amount	{
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 32.5px;
+	border:none;
+	border-bottom:1px solid #B0B8C1;
+	padding:10px;
+	width:100%;
+	height: 50px
+}
+#select_bid_amount:focus, #buy_button:focus{
+
+	outline: none !important
+}
+#buy_button:hover{
+	border-color: #62B5F1;
+}
+
+#bid_div .col-md-6:nth-child(2){
+	display:flex;
+	justify-content: flex-end;
+}
+#bid_div .col-md-6:nth-child(2) span{
+	font-size: 26px;
+	line-height: 32.5px;
+	font-weight: 800;
+	margin-right:20px;
+	align-self: center;
+}
+#buy_button{
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: center;
+	border: 1px solid #586370;
+	box-sizing: border-box;
+	color:#586370;
+	padding:10px;
+	width:100px;
+	margin-top:25px;
+	height: 50%
+}
+
+#discription_div{
+	margin-top:30px;
+}
+
+#discription_div p:nth-child(1){
+	font-weight: 500; font-size: 20px; color:#343A42
+}
+#discription_div p:nth-child(2){
+	font-size: 14px; font-weight: 500
+}
+
+
+
+ul{
+			list-style: none outside none;
+		    padding-left: 0;
+            margin: 0;
+		}
+        .demo .item{
+            margin-bottom: 60px;
+        }
+		.content-slider li{
+		    background-color: #ed3020;
+		    text-align: center;
+		    color: #FFF;
+		}
+		.content-slider h3 {
+		    margin: 0;
+		    padding: 70px 0;
+		}
+		.demo{
+			width: 100%;
+		}
+@media (max-width: 767px) {
+	.header #text_header{
+		font-size:28px;
+		line-height: 35px
+	}
+
+	#title{
+		font-size:24px;
+		line-height: 30px;
+	}
+	#status span{
+		font-size: 12px;
+	}
+	.breadcrumb{
+		font-size:11px;
+	}
+
+	
+}

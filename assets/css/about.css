@@ -1,0 +1,114 @@
+.bottom_boder{
+    width:100px;
+    border-bottom:1px solid white;
+    margin:auto
+}
+.header{
+	background-color:#343A42;
+	width: 100%;
+	padding-bottom:50px;
+		background-image: linear-gradient(to bottom, rgb(10 27 80 / 30%) 0%, rgb(52 58 66 / 60%) 100%), url(../img/home8.jpg);
+	height: 60%;
+	background-size: cover;
+	background-position: center;
+
+}
+.header p{
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 50px;
+	letter-spacing: 0em;
+	text-align: left;
+	padding-top:230px;
+	color:white;
+}
+.main_div{
+	background-color: white;
+}
+#about_section_2{
+    padding-top:6%;
+    padding-bottom: 6%;
+    text-align: center;
+}
+
+#about_section_2 img{
+    width:100%;
+}
+
+#about_section_2 #text_header{
+    font-weight:400;
+    font-size:40px; 
+    text-align:left; 
+    line-height: 50px;
+}
+
+#about_section_2 #text_body{
+    font-weight:500; 
+    font-size:14px; 
+    line-height:22px
+}
+
+
+/*section 3*/
+#about_section_3{
+	padding-top:35px;
+}
+#about_section_3 .row{
+	margin-bottom:50px;
+}
+
+#about_section_3 #text_header{
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 50px;
+}
+#first_sub_div{
+	align-self: center;
+}
+
+#first_sub_div img{
+	width:100px;
+}
+#first_sub_div #text_sub_header{
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 35px;
+	margin-top:20px;
+}
+#first_sub_div #text_sub_desc{
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 22px;
+	margin-top:20px;
+}
+#second_sub_div img{
+	width:100%;
+}
+
+@media (max-width: 767px) {
+	.header p{
+		font-size:28px;
+		line-height: 35px;
+		padding-top:160px;
+	}
+	#about_section_2 #text_header{
+		font-size:28px;
+		line-height: 35px;
+		margin-top:20px;
+	}
+	#about_section_3 #text_header{
+		font-size:28px;
+		line-height: 35px;
+		margin-top:20px;
+	}
+
+	#about_section_3 #text_sub_header{
+		font-size:18px;
+		line-height: 30px;
+	}
+	#about_section_3 #text_sub_desc{
+		font-size:12px;
+		line-height: 20px;
+	}
+}

@@ -1,0 +1,106 @@
+.bottom_boder{
+    width:100px;
+    border-bottom:1px solid white;
+    margin:auto
+}
+.header{
+	background-color:white;
+	width: 100%;
+	padding-bottom:30px;
+}
+.header p{
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 50px;
+	letter-spacing: 0em;
+	text-align: left;
+	padding-top:130px;
+	color:#0D1D50;
+}
+
+#left_side_menu{
+	display: flex;
+	align-items: center;
+	margin-top:10px;
+}
+#left_side_menu ion-icon{
+	margin-left: auto;
+	color:#586370;
+}
+#left_side_menu span{
+	font-size: 18px;
+	font-weight: 500;
+	color:#586370;
+}
+#bids_div {
+	display: flex;
+	margin-bottom:30px;
+}
+#bids_div img{
+	width: 100%;
+}
+#bids_div div p:nth-child(1){
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+#bids_div div p:nth-child(2){
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 28px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+#timer{
+	display:flex;
+	align-items: center;
+	margin-left:30px;
+}
+
+#timer ion-icon{
+	margin-right:5px;
+}
+
+#bids_div #status{
+	display:flex;
+}
+#bids_div div span{
+		background: #E1E6EB;
+		padding:5px 10px;
+		font-size:16px;
+	}
+
+@media (max-width: 767px) {
+	.header p{
+		font-size:28px;
+		line-height: 35px
+	}
+	#bids_div img{
+		width: 250px;
+		margin-right: 20px;
+		max-height: 250px;
+		text-align: center;
+	}
+	#bids_div div p:nth-child(1){
+		font-size: 20px;
+		line-height: 20px;
+		margin-top:20px;
+	}
+
+	#bids_div div p:nth-child(2){
+		font-size: 19px;
+		line-height: 19px;
+		margin-top:20px;
+	}
+
+	#bids_div div span{
+		font-size:12px;
+	}
+}
